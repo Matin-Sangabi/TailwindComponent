@@ -2,7 +2,11 @@ module.exports = {
   darkMode: 'class',
   content: ["./public/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      padding:{
+        '3/4' : '75%' , 
+      }
+    },
   },
   plugins: [
     require('@tailwindcss/forms'),
