@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="stylesheet" href="./build/tailwind.css">
+</head>
+<body class="flex w-full h-screen justify-center items-center bg-slate-100">
+    <div class="sm:w-full sm:max-w-sm">
+        <div class="rounded-lg bg-white py-8 px-6 shadow-sm">
+            <form  class="mb-0 space-y-6">
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-700">Email address</label>
+                    <div class="mt-1">
+                        <input class="" type="text" name="frm[email]" required autocomplete="email" id="email">
+                    </div>
+                </div>
+                <div>
+                    <label for="password" class="block text-sm font-medium text-gray-700">password</label>
+                    <div class="mt-1">
+                        <input class="" type="password" name="frm[password]" id="password">
+                    </div>
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-700">country</label>
+                    <select name="" id="" class="">
+                        <option value="">select the country</option>
+                        <option value="">USA</option>
+                        <option value="">Iran</option>
+                        <option value="">English</option>
+                    </select>
+                </div>
+                <div class="flex items-center w-full gap-x-2">
+                    <input type="checkbox" name="" id="" class="">
+                    <div class="text-sm pt-1" >
+                        I agree to the <a href="" class="text-purple-600">Terms</a> and <a href="" class="text-purple-600">privacy Policy</a>
+                    </div>
+                </div>
+                <div class="">
+                    <button type="button" class="w-full p-2 text-sm rounded-md  bg-indigo-800 text-white focus:border-none focus:outline-none focus:ring focus:ring-offset-indigo-800 focus:ring-offset-2 hover:border-none hover:outline-none hover:ring hover:ring-offset-indigo-800 hover:ring-offset-2">Sign up</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
