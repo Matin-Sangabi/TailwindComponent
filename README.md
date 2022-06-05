@@ -1,4 +1,6 @@
-# TailwindComponent
+# @TailwindComponent
+
+
 # Dark Mode
 using system theme :
 
@@ -66,8 +68,12 @@ module.exports = {
 }
 ```
 
-Behind the scenes of this plugin
-
+Behind the scenes of this plugin<br/>
+padding-bottom : Photo ratio =><br/>
+``Divide the height by the length``
 ```
+<div class="pb-3/4 relative h-0">
+    <img class="inset-0 h-full w-full absolute rounded-xl object-cover" src="./../assets/images/photo-1612468008274-9445bd56161e.jpg" alt="">
+</div>
 
 ```
